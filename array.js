@@ -34,3 +34,7 @@ console.log(fruits, fishes);
 // perameter 2 holo element number
 fruits.splice(0, 1);
 console.log(fruits);
+
+// includes
+let checkName = fruits.includes('Banana');
+console.log(checkName);
