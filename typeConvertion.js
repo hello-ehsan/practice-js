@@ -13,5 +13,11 @@ console.log(n);
 // eta string hoye jay
 let a = 12.321;
 let b = a.toPrecision();
-let b = a.toPrecision(3);
-console.log(b);
+let c = a.toPrecision(3);
+console.log(b, c);
+
+// NaN = Not a Number
+let num = 3;
+let notNum = 'lalala';
+console.log(isNaN(notNum));
+console.log(isNaN(num));
