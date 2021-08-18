@@ -13,6 +13,10 @@ console.log(str1.concat(str2));
 // endsWith
 console.log(str1.endsWith('Coding.'));
 
+// startsWith
+console.log(str1.startsWith('Hello'));
+console.log(str1.startsWith('llo'));
+
 // includes
 console.log(str1.includes('Hello'));
 
@@ -46,6 +50,7 @@ console.log(str1.search('Coding'));
 console.log(str1.slice(2, 8));
 
 // split
+console.log(str1.split());
 console.log(str1.split(' '));
 console.log(str1.split('o'));
 console.log(str1.split(''));
@@ -53,3 +58,8 @@ console.log(str1.split(''));
 // Uppercase lowecase
 console.log(str1.toLocaleUpperCase());
 console.log(str1.toLocaleLowerCase());
+
+// to remove unwanted space
+let p = '     This is a Paragraph.       ';
+console.log(p);
+console.log(p.trim());

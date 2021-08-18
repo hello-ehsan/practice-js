@@ -21,3 +21,10 @@ let num = 3;
 let notNum = 'lalala';
 console.log(isNaN(notNum));
 console.log(isNaN(num));
+
+// substr
+let p = 'I am a paragraph';
+let result = p.substr(7, 4); // first number holo target index number, second number holo oi index number theke total char
+console.log(result);
+// target char ta koto no index number e ache dekhay upay
+console.log(p.charAt(7));
